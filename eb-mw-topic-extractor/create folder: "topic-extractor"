@@ -1,0 +1,29 @@
+create folder: "topic-extractor"
+
+installing pip
+    1. sudo apt-get update
+    2. sudo apt-get -y install python-pip
+    3. pip --help
+    4. pip -V
+
+
+installing numpy
+    1. pip install virtualenv
+    2. sudo apt-get install python-dev
+    2. export LC_ALL=C
+    5. activate virtualenv
+    6. pip install --upgrade setuptools
+    7. pip install -U numpy
+    8. installing bottle
+        1. install bottle 
+    9. deactivate from env
+
+
+installing uwsgi
+    sudo apt-get uwsgi uwsgi-plugin-python python-bottle nginx
+
+
+sudo apt-get install zip unzip*
+
+* addtional ubuntu packages
+note: install all pip packages inside virtual dev

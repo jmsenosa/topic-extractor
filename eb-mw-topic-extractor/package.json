@@ -1,0 +1,19 @@
+{
+  "name": "mw-topic-extrator",
+  "version": "1.0.0",
+  "description": "Used for extracting named entities",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "jmsenosa, jessireedevera",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "python-shell": "^0.4.0",
+    "request": "^2.70.0"
+  }
+}
